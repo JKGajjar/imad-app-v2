@@ -5,7 +5,10 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
-var article1 = {
+
+var articles ={
+
+    article1 = {
     title: 'article-1',
     heading: "Ties with China priority of India's foreign policy: SM Krishna",
     date: '23rd FEB. 2017',
@@ -23,6 +26,9 @@ var article1 = {
                 <a href="http://economictimes.indiatimes.com/articleshow/13869730.cms">Read more here</a>
             </p>`
             
+};
+
+    
 };
 
 function createtemplate (data) {
