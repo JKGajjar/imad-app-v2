@@ -25,6 +25,12 @@ var article1 = {
             
 };
 
+function createtemplate (data) {
+
+var title = data.title;
+var heading = data.heading;
+var date = data.date;
+var content = data.content;
 
 var htmltemplate = `
 <html>
@@ -50,8 +56,8 @@ var htmltemplate = `
     </body>
 </html>
 `;
-
-
+return htmltemplate;
+}
 
 
 app.get('/', function (req, res) {
