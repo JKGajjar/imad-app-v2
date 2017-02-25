@@ -8,7 +8,7 @@ app.use(morgan('combined'));
 
 var articles ={
 
-    'article-1': {
+    'article1': {
     title: 'article-1',
     heading: "Ties with China priority of India's foreign policy: SM Krishna",
     date: '23rd FEB. 2017',
@@ -26,10 +26,10 @@ var articles ={
                 <a href="http://economictimes.indiatimes.com/articleshow/13869730.cms">Read more here</a>
             </p>`
 },
-    'article-2': {
+    'article2': {
          title: 'article-2',
     heading: "Ties with China priority of India's foreign policy: SM Krishna",
-    date: '23rd FEB. 2017',
+    date: '24th FEB. 2017',
     content: `
     <p>
                 BEIJING:India today told China that it sees improving bilateral ties as a priority of its foreign policy and expressed desire to expand strategic cooperation, setting aside concerns here over future direction of the relations in the backdrop of the big US push into the Asia-Pacific region.
@@ -37,27 +37,13 @@ var articles ={
             <p>
             Conveying a strong message about India's intention to firm up ties with China, visiting External Affairs Minister S M Krishna told Chinese Vice Premier Li Keqiang that it is important for both the countries to build trust and understanding to maintain strong and healthy relationship."I conveyed to him that our relations with China are a priority in India's foreign policy and we believe that India-China relations will be one of the most important bilateral relationships in the 21st  ..
     
-            </p>
-            <p>
-                "I indicated that India desires to expand the strategic and cooperative partnership that exists between our countries. It is important for us to continue building better understanding and trust between us since that will help to maintain a strong and healthy relationship between India and China," he said.His assertion about India's desire to build friendship with China comes after US announcement about a major push into the Asia-Pacific, specially the South China Sea, where China i ..
-            <p>
-                <a href="http://economictimes.indiatimes.com/articleshow/13869730.cms">Read more here</a>
             </p>`
     },
-    'article-3': {
+    'article3': {
          title: 'article-3',
     heading: "Ties with China priority of India's foreign policy: SM Krishna",
-    date: '23rd FEB. 2017',
+    date: '25th FEB. 2017',
     content: `
-    <p>
-                BEIJING:India today told China that it sees improving bilateral ties as a priority of its foreign policy and expressed desire to expand strategic cooperation, setting aside concerns here over future direction of the relations in the backdrop of the big US push into the Asia-Pacific region.
-            </p>
-            <p>
-            Conveying a strong message about India's intention to firm up ties with China, visiting External Affairs Minister S M Krishna told Chinese Vice Premier Li Keqiang that it is important for both the countries to build trust and understanding to maintain strong and healthy relationship."I conveyed to him that our relations with China are a priority in India's foreign policy and we believe that India-China relations will be one of the most important bilateral relationships in the 21st  ..
-    
-            </p>
-            <p>
-                "I indicated that India desires to expand the strategic and cooperative partnership that exists between our countries. It is important for us to continue building better understanding and trust between us since that will help to maintain a strong and healthy relationship between India and China," he said.His assertion about India's desire to build friendship with China comes after US announcement about a major push into the Asia-Pacific, specially the South China Sea, where China i ..
             <p>
                 <a href="http://economictimes.indiatimes.com/articleshow/13869730.cms">Read more here</a>
             </p>`
