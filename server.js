@@ -8,7 +8,7 @@ app.use(morgan('combined'));
 
 var articles ={
 
-    article1: {
+    'article-1': {
     title: 'article-1',
     heading: "Ties with China priority of India's foreign policy: SM Krishna",
     date: '23rd FEB. 2017',
@@ -26,7 +26,7 @@ var articles ={
                 <a href="http://economictimes.indiatimes.com/articleshow/13869730.cms">Read more here</a>
             </p>`
 },
-    article2: {
+    'article-2': {
          title: 'article-2',
     heading: "Ties with China priority of India's foreign policy: SM Krishna",
     date: '23rd FEB. 2017',
@@ -44,7 +44,7 @@ var articles ={
                 <a href="http://economictimes.indiatimes.com/articleshow/13869730.cms">Read more here</a>
             </p>`
     },
-    article3: {
+    'article-3': {
          title: 'article-3',
     heading: "Ties with China priority of India's foreign policy: SM Krishna",
     date: '23rd FEB. 2017',
@@ -103,16 +103,9 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
-app.get('/article-1', function (req, res) {
-    res.send(htmltemplate(article1));
-});
-
-app.get('/article-2', function (req, res) {
-    res.sendFile(path.join(__dirname, 'ui', 'article-2.html'));
-});
-
-app.get('/article-3', function (req, res) {
-    res.sendFile(path.join(__dirname, 'ui', 'article-3.html'));
+app.get('/:articleName', function (req, res) {
+    var articleName = req.params.articleName;
+    res.send(htmltemplate(articles[articleName]));
 });
 
 app.get('/ui/style.css', function (req, res) {
