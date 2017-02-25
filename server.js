@@ -26,6 +26,7 @@ var articles ={
                 <a href="http://economictimes.indiatimes.com/articleshow/13869730.cms">Read more here</a>
             </p>`
 },
+
     'article-2': {
          title: 'article-2',
     heading: "Ties with China priority of India's foreign policy: SM Krishna",
@@ -39,7 +40,8 @@ var articles ={
     
             </p>`
     },
-    'article3': {
+    
+    'article-3': {
          title: 'article-3',
     heading: "Ties with China priority of India's foreign policy: SM Krishna",
     date: '25th FEB. 2017',
