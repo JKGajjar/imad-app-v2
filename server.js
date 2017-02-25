@@ -8,7 +8,7 @@ app.use(morgan('combined'));
 
 var articles ={
 
-    'article1': {
+    'article-1': {
     title: 'article-1',
     heading: "Ties with China priority of India's foreign policy: SM Krishna",
     date: '23rd FEB. 2017',
@@ -26,7 +26,7 @@ var articles ={
                 <a href="http://economictimes.indiatimes.com/articleshow/13869730.cms">Read more here</a>
             </p>`
 },
-    'article2': {
+    'article-2': {
          title: 'article-2',
     heading: "Ties with China priority of India's foreign policy: SM Krishna",
     date: '24th FEB. 2017',
